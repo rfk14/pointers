@@ -1,0 +1,15 @@
+
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+    int x=5, y=10;
+    cout<<"The previous value of X is: "<<x<<" and "<<"the previous value of Y is: "<<y<<endl;
+    int *farhan = &x;
+    *farhan = 30;
+    int *farhan_y= &y;
+    *farhan_y = 20;
+    cout<<"The adress of X is: "<<farhan<<" and the new value of X is: "<<x<<endl;
+    cout<<"The adress of Y is: "<<farhan_y<<" and the new value of Y is: "<<y;
+}
